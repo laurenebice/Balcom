@@ -204,6 +204,10 @@ footer a {
         text-align: center !important;
     }
 
+    .hero__text .col-sm-4:first-of-type p {
+        margin-bottom: 10px;
+    }
+
     .hero__text .col-md-auto p {
         margin-top: 10px;
         margin-bottom: 10px;
@@ -211,10 +215,13 @@ footer a {
 
     .hero__text .col-sm-4:last-of-type {
         border-left: none;
-        margin-top: 10px;
         border-top: 1px solid lightgray;
         text-align: center !important;
-    }      
+    }  
+    
+    .hero__text .col-sm-4:last-of-type p {
+        margin-top: 10px;
+    }
 }
 
 @media only screen and (max-width: 650px){
